@@ -196,11 +196,17 @@ html::-webkit-scrollbar-thumb {
   border: var(--border);
 }
 
-.monitoring .box-container .box img {
-  height: 7rem;
-  width: 7rem;
-  border-radius: 50%;
-  object-fit: cover;
+.monitoring .box-container .box iframe {
+  border: var(--border);
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+  height: 25rem;
+  width: 50rem;
+}
+
+.monitoring .box-container iframe:focus,
+.monitoring .box-container iframe:hover {
+  border-color: var(--blue);
 }
 
 .monitoring .box-container .box h3 {
