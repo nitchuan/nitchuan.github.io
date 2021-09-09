@@ -12,6 +12,14 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
 
+    <!-- bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+
     <!-- custom css file link  -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -163,20 +171,39 @@
         <div class="image">
           <img src="img/img-contact.svg" alt="contact image" />
         </div>
-        <form action="">
+        <form action="" name="contact-form-submit">
           <h3>get in touch</h3>
-          <input type="text" placeholder="full name" class="box" />
-          <input type="email" placeholder="your email" class="box" />
-          <input type="number" placeholder="your number" class="box" />
+          <div
+            class="alert alert-dismissible fade show d-none success-alert"
+            role="alert"
+          >
+            <strong>thank you!</strong> Your message has been sent.
+          </div>
+          <input type="text" placeholder="full name" class="box" name="name" />
+          <input
+            type="email"
+            placeholder="your email"
+            class="box"
+            name="email"
+          />
+          <input
+            type="number"
+            placeholder="your number"
+            class="box"
+            name="number"
+          />
           <textarea
-            name=""
+            name="message"
             placeholder="your message"
             class="box"
             id=""
             cols="30"
             rows="10"
           ></textarea>
-          <input type="submit" value="send message" class="btn" />
+          <!-- <input type="submit" value="send message" class="btn" /> -->
+          <button type="submit" value="send message" class="btn">
+            send message
+          </button>
         </form>
       </div>
     </section>
@@ -203,6 +230,13 @@
     </section>
 
     <!-- footer section ends -->
+
+    <!-- bootstrap js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- custom js file link  -->
     <script src="js/script.js"></script>

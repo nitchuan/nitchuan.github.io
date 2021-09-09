@@ -222,15 +222,6 @@ html::-webkit-scrollbar-thumb {
   line-height: 1.8;
 }
 
-.monitoring .box-container .box .stars {
-  padding-top: 0.5rem;
-}
-
-.monitoring .box-container .box .stars i {
-  font-size: 1.7rem;
-  color: var(--light-green);
-}
-
 .contact .row {
   display: flex;
   align-items: center;
@@ -273,6 +264,18 @@ html::-webkit-scrollbar-thumb {
 .contact .row form .box:focus,
 .contact .row form .box:hover {
   border-color: var(--light-green);
+}
+
+.contact .row form .success-alert {
+  width: 100%;
+  margin: 0.8rem 0;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  color: var(--dark-green);
+  background-color: var(--light-green);
+  text-transform: none;
+  text-align: center;
+  font-size: 1.4rem;
 }
 
 .contact .row form textarea {
