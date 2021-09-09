@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
 
 :root {
-  --blue: #2ecc71;
-  --black: #145a32;
+  --dark-green: #145a32;
+  --light-green: #2ecc71;
   --light-color: #666;
   --border: 0.1rem solid rgba(0, 0, 0, 0.1);
   --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
@@ -40,7 +40,7 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-  background: var(--blue);
+  background: var(--light-green);
   border-radius: 5rem;
 } */
 
@@ -48,7 +48,7 @@ html::-webkit-scrollbar-thumb {
   text-align: center;
   padding-bottom: 2rem;
   font-size: 5rem;
-  color: var(--black);
+  color: var(--dark-green);
 }
 
 .heading span {
@@ -63,7 +63,7 @@ html::-webkit-scrollbar-thumb {
   left: 0;
   height: 100%;
   width: 100%;
-  background: var(--blue);
+  background: var(--light-green);
   clip-path: polygon(0 90%, 100% 83%, 100% 100%, 0% 100%);
   z-index: -1;
 }
@@ -75,12 +75,12 @@ html::-webkit-scrollbar-thumb {
   font-size: 1.7rem;
   cursor: pointer;
   color: #fff;
-  background: var(--black);
+  background: var(--dark-green);
   border-radius: 0.5rem;
 }
 
 .btn:hover {
-  background: var(--blue);
+  background: var(--light-green);
 }
 
 .header {
@@ -88,7 +88,7 @@ html::-webkit-scrollbar-thumb {
   align-items: center;
   justify-content: space-between;
   padding: 2rem 9%;
-  background: var(--black);
+  background: var(--dark-green);
   position: fixed;
   top: 0;
   left: 0;
@@ -110,7 +110,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .header .navbar a:hover {
-  color: var(--blue);
+  color: var(--light-green);
 }
 
 #menu-btn {
@@ -143,7 +143,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .home .content h3 {
-  color: var(--black);
+  color: var(--dark-green);
   font-size: 4rem;
   line-height: 1.8;
 }
@@ -169,7 +169,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .about .row .content h3 {
-  color: var(--black);
+  color: var(--dark-green);
   font-size: 3.5rem;
   line-height: 1.8;
 }
@@ -206,12 +206,12 @@ html::-webkit-scrollbar-thumb {
 
 .monitoring .box-container iframe:focus,
 .monitoring .box-container iframe:hover {
-  border-color: var(--blue);
+  border-color: var(--light-green);
 }
 
 .monitoring .box-container .box h3 {
   font-size: 2.3rem;
-  color: var(--black);
+  color: var(--dark-green);
   padding-top: 1rem;
 }
 
@@ -228,7 +228,7 @@ html::-webkit-scrollbar-thumb {
 
 .monitoring .box-container .box .stars i {
   font-size: 1.7rem;
-  color: var(--blue);
+  color: var(--light-green);
 }
 
 .contact .row {
@@ -256,7 +256,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .contact .row form h3 {
-  color: var(--black);
+  color: var(--dark-green);
   font-size: 3rem;
 }
 
@@ -272,7 +272,7 @@ html::-webkit-scrollbar-thumb {
 
 .contact .row form .box:focus,
 .contact .row form .box:hover {
-  border-color: var(--blue);
+  border-color: var(--light-green);
 }
 
 .contact .row form textarea {
@@ -290,24 +290,24 @@ html::-webkit-scrollbar-thumb {
 }
 
 .footer .share a {
-  color: var(--black);
+  color: var(--dark-green);
   font-size: 4rem;
   margin: 1rem;
 }
 
 .footer .share a:hover {
-  color: var(--blue);
+  color: var(--light-green);
 }
 
 .footer .credit {
   padding: 2rem 1rem;
   text-align: center;
   font-size: 2rem;
-  color: var(--black);
+  color: var(--dark-green);
 }
 
 .footer .credit span {
-  color: var(--blue);
+  color: var(--light-green);
 }
 
 /* media queries  */
@@ -339,7 +339,7 @@ html::-webkit-scrollbar-thumb {
     top: 99%;
     left: 0;
     right: 0;
-    background: var(--black);
+    background: var(--dark-green);
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   }
 
