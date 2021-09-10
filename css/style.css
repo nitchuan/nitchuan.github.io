@@ -97,6 +97,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .header .logo {
+  text-decoration: none;
   text-transform: uppercase;
   font-size: 2.5rem;
   color: #fff;
@@ -104,6 +105,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .header .navbar a {
+  text-decoration: none;
   margin-left: 2rem;
   font-size: 1.7rem;
   color: #fff;
@@ -293,6 +295,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .footer .share a {
+  text-decoration: none;
   color: var(--dark-green);
   font-size: 4rem;
   margin: 1rem;
