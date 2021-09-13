@@ -202,7 +202,7 @@ html::-webkit-scrollbar-thumb {
   border: var(--border);
   border-radius: 0.5rem;
   box-shadow: var(--box-shadow);
-  height: 25rem;
+  height: 27rem;
   width: 50rem;
 }
 
