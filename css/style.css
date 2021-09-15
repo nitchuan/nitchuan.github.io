@@ -16,7 +16,6 @@
   outline: none;
   border: none;
   text-decoration: none;
-  text-transform: capitalize;
   transition: all 0.2s linear;
 }
 
@@ -158,16 +157,16 @@ html::-webkit-scrollbar-thumb {
 }
 
 .about .row {
-  padding-bottom: 3rem;
-  display: flex;
   align-items: center;
-  flex-wrap: wrap;
+  padding-bottom: 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
   gap: 1.5rem;
 }
 
 .about .row .content {
-  text-align: center;
-  flex: 1 1 42rem;
+  text-align: left;
+  padding: 2rem;
 }
 
 .about .row .content h3 {
@@ -180,7 +179,6 @@ html::-webkit-scrollbar-thumb {
   color: var(--light-color);
   font-size: 1.4rem;
   line-height: 1.8;
-  padding: 1rem 0;
 }
 
 .monitoring .box-container {
